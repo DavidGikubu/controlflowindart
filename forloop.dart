@@ -9,4 +9,9 @@ void main() {
   for (int i = 10; i >= 1; i--) {
     print(i);
   }
+  //printing my name 10 times
+  for (int i = 1; i <= 10; i++) {
+    print("my name is David.N.G");
+  }
+  print(" ")
 }
