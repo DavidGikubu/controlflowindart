@@ -20,4 +20,12 @@ void main() {
     loopCounter += i;
   }
   print(loopCounter);
+
+  print(" ");
+  //display even numbers from 50 -100
+  for (int i = 50; i <= 100; i++) {
+    if (i % 2 == 0) {
+      print(i);
+    }
+  }
 }
