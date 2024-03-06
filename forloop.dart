@@ -13,5 +13,11 @@ void main() {
   for (int i = 1; i <= 10; i++) {
     print("my name is David.N.G");
   }
-  print(" ")
+  print(" ");
+  //displaying the sum of natural numbers from 1-100
+  int loopCounter = 0;
+  for (int i = 1; i <= 100; i++) {
+    loopCounter += i;
+  }
+  print(loopCounter);
 }
