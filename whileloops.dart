@@ -1,5 +1,7 @@
 void main() {
   oneToTenCounter();
+  print(" ");
+  tenToOneCounter();
 }
 
 void oneToTenCounter() {
@@ -7,5 +9,13 @@ void oneToTenCounter() {
   while (loopCounter <= 10) {
     print(loopCounter);
     loopCounter++;
+  }
+}
+
+void tenToOneCounter() {
+  int loopCounter = 10;
+  while (loopCounter >= 1) {
+    print(loopCounter);
+    loopCounter--;
   }
 }
