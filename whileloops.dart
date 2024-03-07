@@ -2,6 +2,10 @@ void main() {
   oneToTenCounter();
   print(" ");
   tenToOneCounter();
+  print(" ");
+  sumOfNaturalNumbers();
+  print(" ");
+  evenNumbers();
 }
 
 void oneToTenCounter() {
@@ -17,5 +21,25 @@ void tenToOneCounter() {
   while (loopCounter >= 1) {
     print(loopCounter);
     loopCounter--;
+  }
+}
+
+void sumOfNaturalNumbers() {
+  int total = 0;
+  int i = 1;
+  while (i <= 100) {
+    total += i;
+    i++;
+  }
+  print(total);
+}
+
+void evenNumbers() {
+  int initialValue = 50;
+  while (initialValue <= 100) {
+    if (initialValue % 2 == 0) {
+      print(initialValue);
+    }
+    initialValue++;
   }
 }
